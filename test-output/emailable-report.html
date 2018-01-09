@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite</th></tr><tr><td><a href="#t0">TestAndroid</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">5</td><td class="num">167,535</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestAndroid &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.experitest.auto.AndroidDemoTest</td><td><a href="#m0">tearDown</a></td><td rowspan="1">1509985552164</td><td rowspan="1">0</td></tr><tr><th colspan="4">TestAndroid &#8212; failed</th></tr><tr class="failedeven"><td rowspan="5">com.experitest.auto.AndroidDemoTest</td><td><a href="#m1">LaunchApplicationTest</a></td><td rowspan="1">1509985526581</td><td rowspan="1">115420</td></tr><tr class="failedeven"><td><a href="#m2">LoginApplicationTest</a></td><td rowspan="1">1509985540549</td><td rowspan="1">11601</td></tr><tr class="failedeven"><td><a href="#m3">MakePayMentTest</a></td><td rowspan="1">1509985541452</td><td rowspan="1">4087</td></tr><tr class="failedeven"><td><a href="#m4">WebApplication2Test</a></td><td rowspan="1">1509985534232</td><td rowspan="1">28546</td></tr><tr class="failedeven"><td><a href="#m5">WebApplicationTest</a></td><td rowspan="1">1509985530096</td><td rowspan="1">23804</td></tr><tr><th colspan="4">TestAndroid &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="3">com.experitest.auto.AndroidDemoTest</td><td><a href="#m6">tearDown</a></td><td rowspan="3">1509985562781</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m7">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m8">tearDown</a></td></tr></tbody></table><h2>TestAndroid</h2><h3 id="m0">com.experitest.auto.AndroidDemoTest#tearDown</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.SessionNotFoundException: Can&apos;t delete appium session CLOUD-SID:2017-11-06_18-24-57-84383dc4-721a-4324-b94b-a5ccabbdd4b1, session was not found. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 205 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;alok-lt&apos;, ip: &apos;192.168.244.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.experitest.ExperiBank, device.majorVersion=6.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, project=Default, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={app=cloud:com.experitest.ExperiBank/.LoginActivity, appPackage=com.experitest.ExperiBank, appActivity=.LoginActivity, orientation=PORTRAIT, deviceQuery=@os=&apos;android&apos;, reportDirectory=reports, project=Default, reportFormat=xml, platformName=Android, testName=AndroidDemoTest}, device.serialNumber=02dfe56321089ac2, device.version=6.0.1, deviceQuery=@os=&apos;android&apos;, reportDirectory=reports, autoWebview=false, platformName=Android, testName=AndroidDemoTest, device.screenSize=1080x1920, useKeystore=false, app=cloud:com.experitest.ExperiBank/.LoginActivity, orientation=PORTRAIT, cloudViewLink=https://cloud-dhm2.experitest.com:443/#/9tkFChkHdCZPHvlm?1
+Picked up Grid Node (seetest_7779)
+Reserved Device : LGE Nexus 5, device.manufacture=LGE, instrumentApp=false, device.category=PHONE, autoDismissAlerts=false, reportUrl=https://cloudreports.experitest.com/#/test/566, keystorePath=~/.android/debug.keystore, appActivity=.LoginActivity, waitForDeviceTimeout=120000, device.model=Nexus 5, device.name=LGE Nexus 5, projectName=, gridNodePort=7779, autoAcceptAlerts=false}]
+Session ID: CLOUD-SID:2017-11-06_18-24-57-84383dc4-721a-4324-b94b-a5ccabbdd4b1
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:235)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:526)
+	at com.experitest.auto.AndroidDemoTest.tearDown(AndroidDemoTest.java:132)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.experitest.auto.AndroidDemoTest#LaunchApplicationTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Timed out after 100 seconds waiting for presence of element located by: By.xpath: //*[@id=&apos;passwordTextField&apos;]
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;alok-lt&apos;, ip: &apos;192.168.244.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.experitest.ExperiBank, device.majorVersion=7.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, project=Default, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={app=cloud:com.experitest.ExperiBank/.LoginActivity, appPackage=com.experitest.ExperiBank, appActivity=.LoginActivity, orientation=PORTRAIT, deviceQuery=@os=&apos;android&apos;, reportDirectory=reports, project=Default, reportFormat=xml, platformName=Android, testName=AndroidDemoTest}, device.serialNumber=98866742375a394e33, device.version=7.0, deviceQuery=@os=&apos;android&apos;, reportDirectory=reports, autoWebview=false, platformName=Android, testName=AndroidDemoTest, device.screenSize=1080x1920, useKeystore=false, app=cloud:com.experitest.ExperiBank/.LoginActivity, orientation=PORTRAIT, cloudViewLink=https://cloud-dhm1.experitest.com:443/#/itIH4FHLLhD6tm9v?1
+Picked up Grid Node (seetest_7777)
+Reserved Device : samsung Galaxy S7, device.manufacture=samsung, instrumentApp=false, device.category=PHONE, autoDismissAlerts=false, reportUrl=https://cloudreports.experitest.com/#/test/567, keystorePath=~/.android/debug.keystore, appActivity=.LoginActivity, waitForDeviceTimeout=120000, device.model=SM-G930F, device.name=samsung Galaxy S7, projectName=, gridNodePort=7777, autoAcceptAlerts=false}]
+Session ID: CLOUD-SID:2017-11-06_18-24-36-524ef119-36a5-4354-9219-f3183cb173ad
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.experitest.auto.AndroidDemoTest.LaunchApplicationTest(AndroidDemoTest.java:44)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH=&apos;//*[@id=&apos;passwordTextField&apos;]&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.77 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;alok-lt&apos;, ip: &apos;192.168.244.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.experitest.ExperiBank, device.majorVersion=7.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, project=Default, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={app=cloud:com.experitest.ExperiBank/.LoginActivity, appPackage=com.experitest.ExperiBank, appActivity=.LoginActivity, orientation=PORTRAIT, deviceQuery=@os=&apos;android&apos;, reportDirectory=reports, project=Default, reportFormat=xml, platformName=Android, testName=AndroidDemoTest}, device.serialNumber=98866742375a394e33, device.version=7.0, deviceQuery=@os=&apos;android&apos;, reportDirectory=reports, autoWebview=false, platformName=Android, testName=AndroidDemoTest, device.screenSize=1080x1920, useKeystore=false, app=cloud:com.experitest.ExperiBank/.LoginActivity, orientation=PORTRAIT, cloudViewLink=https://cloud-dhm1.experitest.com:443/#/itIH4FHLLhD6tm9v?1
+Picked up Grid Node (seetest_7777)
+Reserved Device : samsung Galaxy S7, device.manufacture=samsung, instrumentApp=false, device.category=PHONE, autoDismissAlerts=false, reportUrl=https://cloudreports.experitest.com/#/test/567, keystorePath=~/.android/debug.keystore, appActivity=.LoginActivity, waitForDeviceTimeout=120000, device.model=SM-G930F, device.name=samsung Galaxy S7, projectName=, gridNodePort=7777, autoAcceptAlerts=false}]
+Session ID: CLOUD-SID:2017-11-06_18-24-36-524ef119-36a5-4354-9219-f3183cb173ad
+*** Element info: {Using=xpath, value=//*[@id=&apos;passwordTextField&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 14 more
+... Removed 13 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.experitest.auto.AndroidDemoTest#LoginApplicationTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for presence of element located by: By.xpath: //*[@id=&apos;usernameTextField&apos;]
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;alok-lt&apos;, ip: &apos;192.168.244.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.experitest.ExperiBank, device.majorVersion=6.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, project=Default, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={app=cloud:com.experitest.ExperiBank/.LoginActivity, appPackage=com.experitest.ExperiBank, appActivity=.LoginActivity, orientation=PORTRAIT, deviceQuery=@os=&apos;android&apos;, reportDirectory=reports, project=Default, reportFormat=xml, platformName=Android, testName=AndroidDemoTest}, device.serialNumber=02dfe56321089ac2, device.version=6.0.1, deviceQuery=@os=&apos;android&apos;, reportDirectory=reports, autoWebview=false, platformName=Android, testName=AndroidDemoTest, device.screenSize=1080x1920, useKeystore=false, app=cloud:com.experitest.ExperiBank/.LoginActivity, orientation=PORTRAIT, cloudViewLink=https://cloud-dhm2.experitest.com:443/#/9tkFChkHdCZPHvlm?1
+Picked up Grid Node (seetest_7779)
+Reserved Device : LGE Nexus 5, device.manufacture=LGE, instrumentApp=false, device.category=PHONE, autoDismissAlerts=false, reportUrl=https://cloudreports.experitest.com/#/test/566, keystorePath=~/.android/debug.keystore, appActivity=.LoginActivity, waitForDeviceTimeout=120000, device.model=Nexus 5, device.name=LGE Nexus 5, projectName=, gridNodePort=7779, autoAcceptAlerts=false}]
+Session ID: CLOUD-SID:2017-11-06_18-24-57-84383dc4-721a-4324-b94b-a5ccabbdd4b1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.experitest.auto.AndroidDemoTest.LoginApplicationTest(AndroidDemoTest.java:57)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.SessionNotFoundException: Session CLOUD-SID:2017-11-06_18-24-57-84383dc4-721a-4324-b94b-a5ccabbdd4b1 could not be found (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 209 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;alok-lt&apos;, ip: &apos;192.168.244.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.experitest.ExperiBank, device.majorVersion=6.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, project=Default, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={app=cloud:com.experitest.ExperiBank/.LoginActivity, appPackage=com.experitest.ExperiBank, appActivity=.LoginActivity, orientation=PORTRAIT, deviceQuery=@os=&apos;android&apos;, reportDirectory=reports, project=Default, reportFormat=xml, platformName=Android, testName=AndroidDemoTest}, device.serialNumber=02dfe56321089ac2, device.version=6.0.1, deviceQuery=@os=&apos;android&apos;, reportDirectory=reports, autoWebview=false, platformName=Android, testName=AndroidDemoTest, device.screenSize=1080x1920, useKeystore=false, app=cloud:com.experitest.ExperiBank/.LoginActivity, orientation=PORTRAIT, cloudViewLink=https://cloud-dhm2.experitest.com:443/#/9tkFChkHdCZPHvlm?1
+Picked up Grid Node (seetest_7779)
+Reserved Device : LGE Nexus 5, device.manufacture=LGE, instrumentApp=false, device.category=PHONE, autoDismissAlerts=false, reportUrl=https://cloudreports.experitest.com/#/test/566, keystorePath=~/.android/debug.keystore, appActivity=.LoginActivity, waitForDeviceTimeout=120000, device.model=Nexus 5, device.name=LGE Nexus 5, projectName=, gridNodePort=7779, autoAcceptAlerts=false}]
+Session ID: CLOUD-SID:2017-11-06_18-24-57-84383dc4-721a-4324-b94b-a5ccabbdd4b1
+*** Element info: {Using=xpath, value=//*[@id=&apos;usernameTextField&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 14 more
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.experitest.auto.AndroidDemoTest#MakePayMentTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH=&apos;//*[@text=&apos;Username&apos;]&apos;))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.87 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;alok-lt&apos;, ip: &apos;192.168.244.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.experitest.ExperiBank, device.majorVersion=6.x, dontGoHomeOnQuit=false, device.os=Android, noReset=false, dontStopAppOnReset=false, project=Default, reservationDuration=240, reportFormat=xml, fullReset=false, platform=ANY, desired={app=cloud:com.experitest.ExperiBank/.LoginActivity, appPackage=com.experitest.ExperiBank, appActivity=.LoginActivity, orientation=PORTRAIT, deviceQuery=@os=&apos;android&apos;, reportDirectory=reports, project=Default, reportFormat=xml, platformName=Android, testName=AndroidDemoTest}, device.serialNumber=02dfe56321089ac2, device.version=6.0.1, deviceQuery=@os=&apos;android&apos;, reportDirectory=reports, autoWebview=false, platformName=Android, testName=AndroidDemoTest, device.screenSize=1080x1920, useKeystore=false, app=cloud:com.experitest.ExperiBank/.LoginActivity, orientation=PORTRAIT, cloudViewLink=https://cloud-dhm2.experitest.com:443/#/9tkFChkHdCZPHvlm?1
+Picked up Grid Node (seetest_7779)
+Reserved Device : LGE Nexus 5, device.manufacture=LGE, instrumentApp=false, device.category=PHONE, autoDismissAlerts=false, reportUrl=https://cloudreports.experitest.com/#/test/566, keystorePath=~/.android/debug.keystore, appActivity=.LoginActivity, waitForDeviceTimeout=120000, device.model=Nexus 5, device.name=LGE Nexus 5, projectName=, gridNodePort=7779, autoAcceptAlerts=false}]
+Session ID: CLOUD-SID:2017-11-06_18-24-57-84383dc4-721a-4324-b94b-a5ccabbdd4b1
+*** Element info: {Using=xpath, value=//*[@text=&apos;Username&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.experitest.auto.AndroidDemoTest.MakePayMentTest(AndroidDemoTest.java:71)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">com.experitest.auto.AndroidDemoTest#WebApplication2Test</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;alok-lt&apos;, ip: &apos;192.168.244.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: AppiumDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.AppiumDriver.context(AppiumDriver.java:557)
+	at com.experitest.auto.AndroidDemoTest.WebApplication2Test(AndroidDemoTest.java:119)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">com.experitest.auto.AndroidDemoTest#WebApplicationTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.SessionNotFoundException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;alok-lt&apos;, ip: &apos;192.168.244.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: AppiumDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:69)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.AppiumDriver.context(AppiumDriver.java:557)
+	at com.experitest.auto.AndroidDemoTest.WebApplicationTest(AndroidDemoTest.java:100)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">com.experitest.auto.AndroidDemoTest#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">com.experitest.auto.AndroidDemoTest#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">com.experitest.auto.AndroidDemoTest#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
