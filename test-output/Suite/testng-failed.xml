@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
   <parameter name="deviceQuery" value="@os=&#039;android&#039;"/>
-  <test name="TestAndroid(failed)" parallel="methods">
+  <test name="TestIOS">
+    <parameter name="deviceQuery" value="@os=&#039;ios&#039;"/>
+    <classes>
+      <class name="com.experitest.auto.IOSDemoTest"/>
+    </classes>
+  </test> <!-- TestIOS -->
+  <test name="TestAndroid">
     <parameter name="deviceQuery" value="@os=&#039;android&#039;"/>
     <classes>
-      <class name="com.experitest.auto.AndroidDemoTest">
-        <methods>
-          <include name="LoginApplicationTest"/>
-          <include name="LaunchApplicationTest"/>
-          <include name="WebApplication2Test"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="WebApplicationTest"/>
-          <include name="MakePayMentTest"/>
-        </methods>
-      </class> <!-- com.experitest.auto.AndroidDemoTest -->
+      <class name="com.experitest.auto.AndroidDemoTest"/>
     </classes>
-  </test> <!-- TestAndroid(failed) -->
+  </test> <!-- TestAndroid -->
 </suite> <!-- Failed suite [Suite] -->

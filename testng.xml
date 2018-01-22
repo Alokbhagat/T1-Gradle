@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="Methods" thread-count="3">
-  <!-- <test name="TestIOS">
+<suite name="Suite" parallel="classes" thread-count="2">
+  <test name="TestIOS">
   	<parameter name="deviceQuery" value="@os='ios'"/>
     <classes>
       <class name="com.experitest.auto.IOSDemoTest"/>
     </classes>
-  </test> Test -->
+  </test>
   <test name="TestAndroid">
   	<parameter name="deviceQuery" value="@os='android'" />
     <classes>
